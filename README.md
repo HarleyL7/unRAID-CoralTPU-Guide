@@ -60,7 +60,7 @@ It will pull the image and run the docker run command and you should have an out
 This is where a lot of issues arrive and this will probably be updated with new releases of CPAI. The module does not like to be installed. There are other work arounds, but the one that worked for me was to stop all ObjectDetection modules, Uninstall Coral Module, and re-install Coral Module until it worked via watching in the system log tab. If there are any "pip" error messages then try and reinstall until sucessful. Credit for this work around goes to PeteUK on the codeproject discusions. 
 This will most likely change once CPAI is updated.
 
-The PIP erros will look something like this: 
+The PIP errors will look something like this: 
 
 ![error](error.PNG)
 
