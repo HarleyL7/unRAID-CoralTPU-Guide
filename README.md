@@ -88,6 +88,8 @@ Now you should see this "Edge TPU detected" in the log and at the bottom "CPU" s
 
 ![detect](detect.PNG)
 
+# Summary
 
+This should get you started and fully installed. Issues I have noticed so far in my limited testing. The last step of re-installing multiple times (Average of three for me) seems to be required on every restart. This is problematic and this is a known issue on the CodeProject Discussions. Hopefully it will be fixed asap. I will be looking into the other work arounds mentioned on the discussion. If they work, I will add them here.
 
 
