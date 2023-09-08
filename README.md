@@ -1,4 +1,4 @@
-# unRAID-CoralTPU-Guide
+# unRAID-CoralTPU-Guide w/ CodeProject.AI
 This guide is compiled from multiple sites and with the help of multiple sources. When setting up my Google Coral TPU, I spent a good amount of time searching for how to all across the internet. 
 
 # Hardware Installation
@@ -28,3 +28,24 @@ In the search bar type: coral accelerator module drivers
 Once installed, you can go to SETTINGS > CORAL DRIVER and if unRAID can see your TPU then you will see something like this:
 
 ![driver](driver.JPG)
+
+# CodeProject.AI Docker Install
+
+Go back to the APPS TAB in unRAID and search for Codeproject
+
+![cpai](cpai.JPG)
+
+Click on it and press install. It will take you to a page that looks like this:
+
+We need to pass through our Coral TPU - Click "Add another Path, Port Variable, Label or Device"
+
+![docker](docker.PNG)
+
+Change Config Type to "Device"
+
+![config](config.PNG)
+
+For Value:
+* USB - /dev/bus/usb
+* M.2 - /dev/apex_0
+* Dueal Edge TPU - /dev/apex_0
