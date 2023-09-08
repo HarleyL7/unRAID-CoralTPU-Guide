@@ -18,4 +18,7 @@ Simply install the TPU in your system and boot up your unRAID server.
 First you must make sure you have the community applications installed. This can be done by going here: https://forums.unraid.net/topic/38582-plug-in-community-applications/
 
 Go to the APPs tab:
-![images](APPs.png)
+![APPs](APPs.png)
+
+In the search bar type: coral accelerator module drivers
+![search](search.JPG)
