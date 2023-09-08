@@ -11,4 +11,11 @@ If using the M.2 Accelerator with Dual Edge TPU you might have to use adapters t
 * https://www.makerfabs.com/dual-edge-tpu-adapter.html
 * https://www.makerfabs.com/dual-edge-tpu-adapter-m2-2280-b-m-key.html
 
+Simply install the TPU in your system and boot up your unRAID server.
+
 # unRAID Coral Drivers Installation
+
+First you must make sure you have the community applications installed. This can be done by going here: https://forums.unraid.net/topic/38582-plug-in-community-applications/
+
+Go to the APPs tab:
+![images](APPs.png)
