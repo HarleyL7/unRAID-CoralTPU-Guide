@@ -72,7 +72,21 @@ Uninstall Coral Module
 
 ![uninstall](uninstall.PNG)
 
+Go back to "Install Modules" and re-install Coral Module. Make sure to watch the server log to see if it worked without any PIP errors. 
 
+This is what a bad install looks like
+
+![badinstall](badinstall.PNG)
+
+And this is what a good install looks like
+
+![goodinstall](goodinstall.PNG)
+
+Once we acheive a good install, we can move on. Head back to Status Tab and enable the ObjectDetection(Coral)
+
+Now you should see this "Edge TPU detected" in the log and at the bottom "CPU" should have changed to "GPU(TPU)
+
+![detect](detect.PNG)
 
 
 
