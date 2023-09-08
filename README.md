@@ -49,3 +49,10 @@ For Value:
 * USB - /dev/bus/usb
 * M.2 - /dev/apex_0
 * Dueal Edge TPU - /dev/apex_0
+
+Press ADD
+Then press APPLY
+It will pull the image and run the docker run command and you should have an output similiar to this: 
+![cmdexec](cmdexec.PNG)
+
+
